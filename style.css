@@ -5,11 +5,23 @@
 } */
 
 .nav-bar{
-  background-color: rgba(0,0,0,0);
+  background-color: black;
+}
+
+.brand-logo{
+  margin-left: 10px;
 }
 
 .parallax-container{
-  height: 800px;
+  height: 500px;
+}
+
+#hardware{
+  height: 250px;
+}
+
+.parallax img{
+  width: 100%;
 }
 .welcome{
   position: fixed;
@@ -27,17 +39,31 @@
   font-style: italic;
 }
 
+.title{
+  width: 100%;
+  text-align: center;
+}
 
+#hardTitle{
+  color: #eceff1;
+  text-align: center;
+}
 
-/* .name{
-  position: fixed;
-  top: 40%;
-  left: 70%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-  //background-color: black;
-} */
-
+.row{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.position{
+  font-size: 40px;
+  /* font-weight: bold; */
+  color: #1b5e20
+}
+.time{
+  text-align: right;
+  font-size: 40px;
+  /* font-weight: bold; */
+  color: #26a69a
+}
 
 /* #bojan{
   color: white;
