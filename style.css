@@ -47,6 +47,7 @@
 #hardTitle{
   color: #eceff1;
   text-align: center;
+  text-shadow: 2px 2px #212121;
 }
 
 .row{
