@@ -5,7 +5,13 @@
 } */
 
 .nav-bar{
-  background-color: black;
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+}
+.nav-wrapper{
+
 }
 
 .brand-logo{
@@ -19,6 +25,11 @@
 #hardware{
   height: 250px;
 }
+
+#software{
+  height: 250px;
+}
+
 
 .parallax img{
   width: 100%;
@@ -56,15 +67,43 @@
   padding-top: 0px;
 }
 .position{
-  font-size: 40px;
+  font-size: 25px;
+  letter-spacing: -1px;
   /* font-weight: bold; */
-  color: #1b5e20
+  color: #212121
+}
+.firstLetter{
+  font-size: 30px;
+}
+.divider{
+  border:2px solid green;
+  height: 2px;
 }
 .time{
   text-align: right;
-  font-size: 40px;
+  font-size: 30px;
   /* font-weight: bold; */
-  color: #26a69a
+  color: #212121
+}
+.tasks{
+  font-size: 20px;
+  color: #212121;
+}
+.collapsible-header{
+  font-size: 18px;
+}
+.project-header{
+  font-weight: bold;
+}
+.resume-item{
+  list-style-type: circle;
+  margin-top: 10px;
+}
+.myName{
+  font-weight: bold;
+}
+.publication{
+  font-size: 18px;
 }
 
 /* #bojan{
