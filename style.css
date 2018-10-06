@@ -1,9 +1,3 @@
-/* body{
-  background-image: url("kb13u6hflxn01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 .nav-bar{
   background-color: transparent;
   position: absolute;
@@ -40,7 +34,7 @@
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
-  //background-color: black;
+  /*background-color: black;*/
 }
 
 #wel{
@@ -59,6 +53,7 @@
   color: #eceff1;
   text-align: center;
   text-shadow: 2px 2px #212121;
+  font-size: 60px;
 }
 
 /*  Testting git credentials*/
@@ -106,17 +101,17 @@
   font-size: 18px;
 }
 
-/* #bojan{
+.pdfBtn{
   color: white;
-  font-family: Arial;
-  margin: 0px;
-  font-size: 100px;
+  right: 2%;
+  top: 0;
+  position: absolute;
+  font-size: 20px;
+
 }
 
-#gav{
-  color: white;
-  font-family: Arial;
-  margin: 0px;
-  font-size: 120px;
-  letter-spacing: -3px;
-} */
+/*.workBackground{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(code-dark.jpg);
+  background-size: cover;
+
+}*/
