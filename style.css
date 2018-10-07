@@ -4,9 +4,6 @@
   z-index: 10;
   top: 0px;
 }
-.nav-wrapper{
-
-}
 
 .brand-logo{
   margin-left: 10px;
@@ -32,9 +29,7 @@
   position: fixed;
   top: 20%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
-  /*background-color: black;*/
 }
 
 #wel{
@@ -56,7 +51,6 @@
   font-size: 60px;
 }
 
-/*  Testting git credentials*/
 .row{
   margin-top: 0px;
   padding-top: 0px;
@@ -64,7 +58,6 @@
 .position{
   font-size: 25px;
   letter-spacing: -1px;
-  /* font-weight: bold; */
   color: #212121
 }
 .firstLetter{
@@ -77,7 +70,6 @@
 .time{
   text-align: right;
   font-size: 30px;
-  /* font-weight: bold; */
   color: #212121
 }
 .tasks{
@@ -109,9 +101,3 @@
   font-size: 20px;
 
 }
-
-/*.workBackground{
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(code-dark.jpg);
-  background-size: cover;
-
-}*/
