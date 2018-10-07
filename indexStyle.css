@@ -45,7 +45,7 @@ p{
 }
 
 .mainBackground{
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(background1.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/background1.jpg);
   background-size: cover;
   height: 100vh;
 }
