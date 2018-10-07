@@ -2,6 +2,20 @@ html{
   font-size: 62.5%
 }
 
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+} 
+
 .circleNew{
   border-radius: 50%;
   display: block;
@@ -34,6 +48,10 @@ html{
   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(background1.jpg);
   background-size: cover;
   height: 100vh;
+}
+
+.contentWrapper{
+  padding-left: 300px;
 }
 
 /*#title{
@@ -74,15 +92,13 @@ html{
 }*/
 
 .title {
-  /*animation-name: topFadeOutTitle;*/
-  /*animation-duration: 5s;*/
+  margin: 0 auto;
 }
 
 .title p {
   text-align: center;
   margin: 0px;
-  margin-left: 30%;
-  padding-top: 5%;
+  padding-top: 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 70px;
   color: white;
@@ -90,13 +106,28 @@ html{
 }
 
 .about{
+  margin: 0 auto;
+  padding-top: 10px;
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
-  position: absolute;
-  left: 53%;
-  top: 25%;
   color: white;
   opacity: 0.7;
+}
+
+.about p{
+  float: left;
+}
+
+.engineer{
+  width: 48%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.designer{
+  width: 48%;
+  text-align: left;
+  padding-left: 10px;
 }
 
 /*.sidenav ul li a{
