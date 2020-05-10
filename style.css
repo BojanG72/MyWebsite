@@ -1,0 +1,89 @@
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	width: 100%;
+}
+
+.heroImage{
+	height: 100vh;
+	background-color: #292929;
+}
+
+.image {
+	margin: 0 auto;
+	width: 400px;
+}
+
+.top{
+	margin-top: 100px;
+}
+
+.nameWrapper{
+	/*margin: 0 auto;*/
+}
+
+.name{
+/*	padding-top: 50px;
+	padding-bottom: 50px;*/
+	position: relative;
+	bottom: 150px;
+	color: white;
+	font-size: 70px;
+	text-transform: uppercase;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+.title{
+	color: #e43f5a;
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 400;
+	font-size: large;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.navWrapper {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.myNav{
+	position: relative;
+	left: -50%;
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+.myNav li{
+	color: #e43f5a;
+	font-size: large;
+}
+.myNav a {
+	display: block;
+	color: #e43f5a;
+	text-decoration: none;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: medium;
+	margin: 0px 15px 0px 15px;
+	padding-bottom: 20px;
+	/*width: 70px;*/
+	text-align: center;
+	border-bottom: 2px solid #292929;
+}
+
+.myNav a:hover{
+	/*background: #535455;*/
+	/*background: #32A273; */
+	/*color: white;*/
+	border-bottom: 2px solid white;
+}
