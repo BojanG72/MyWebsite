@@ -1,3 +1,6 @@
+body{
+	font-size: 100%;
+}
 nav {
 	margin: 0;
 	padding: 0;
@@ -5,6 +8,16 @@ nav {
 
 img{
 	width: 100%;
+}
+
+
+p{
+	margin: 0 0;
+	padding: 0 0;
+}
+#myName{
+	color: #e43f5a;
+	font-weight: 700;
 }
 
 .heroImage{
@@ -82,8 +95,41 @@ img{
 }
 
 .myNav a:hover{
-	/*background: #535455;*/
-	/*background: #32A273; */
-	/*color: white;*/
 	border-bottom: 2px solid white;
 }
+
+
+.about{
+	display: flex;
+	flex-direction: row;
+}
+
+.about div{
+	flex-grow: 1;
+	width: 50%;
+}
+
+.sectionTitle{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 5em;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.content{
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	padding-top: 50px;
+}
+
+.aboutContent1
+	/*padding-top: 50px;*/
+}
+
+
+
+
