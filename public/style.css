@@ -306,4 +306,43 @@ div{
 }
 
 
+@media only screen and (max-width: 600px) {
+	.navWrapper{
+		display: none;
+	}
 
+	.about{
+		display: none;
+	}
+
+	.section{
+		display: none;
+	}
+
+
+	.nameWrapper{
+		margin: 0 auto;
+		position: absolute;
+		top: 30px;
+		/*left: 50px;*/
+	}
+
+	.name{
+		color: black;
+		font-size: 3em;
+		text-transform: uppercase;
+		font-family: 'Permanent Marker', cursive;
+		text-align: center;
+	}
+
+	.title{
+		color: #e43f5a;
+		font-family: 'Fjalla One', sans-serif;
+		font-weight: 400;
+		font-size: 1.5em;
+		text-align: center;
+		/*padding-top: 30px;*/
+	}
+
+
+}
