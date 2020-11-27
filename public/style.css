@@ -19,7 +19,8 @@ p{
 
 footer{
 	height: 500px;
-	/*margin-top: 100px;*/
+	padding-top: 100px;
+	background-color: #222831
 }
 
 ul{
@@ -122,6 +123,7 @@ div{
 .contentSection{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	/*height: 700px;*/
 	overflow:hidden
 }
@@ -156,8 +158,10 @@ div{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 2.5em;
-	padding-top: 30px;
+	padding-top: 20px;
 }
+
+
 
 
 .companyName{
@@ -179,6 +183,11 @@ div{
 	padding-top: 50px;
 }
 
+.leftWork{
+	height: 1182px;
+	max-height: 1182px;
+}
+
 .itemWrapper{
 	margin: 0 auto;
 }
@@ -197,13 +206,17 @@ div{
 	font-weight: 700;
 	margin: 0 auto;
 	text-align: center;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 	padding-top: 10px;
 }
 
 .aboutContent1
 	/*padding-top: 50px;*/
 }
+
+/*.footerSection{
+	padding-top: 10px;
+}*/
 
 .contentContainer{
 	display: flex;
@@ -223,6 +236,7 @@ div{
 	font-weight: 400;
 	font-size: 2em;
 	text-align: center;
+	color: white;
 }
 
 .footerBox1{
@@ -231,8 +245,8 @@ div{
 
 .footerBox2{
 	position: relative;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 150px;
 }
 
 .footerBox3{
@@ -252,6 +266,7 @@ div{
 }
 
 .contactText{
+	color: white;
 	text-align: center;
 	margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
@@ -263,23 +278,23 @@ div{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 4px;
-	background: white;
 	flex-grow: 2;
 	/*padding: 5px 0px;*/
 }
 
 .icon{
 	padding: 5px 10px;
-	color: black;
+	color: white;
 	font-size: 5em;
 }
 
 .scholar{
-	width: 1.5em;
+	width: 1.4em;
+	fill: white;
 }
-
 .footerBox4{
 	position: relative;
+	margin-top: 50px;
 }
 
 .line{
