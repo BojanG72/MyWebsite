@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
 
@@ -23,19 +24,13 @@
 </head>
 <body>
   <div class="heroImage">
-    <div class="title">EMBEDDED SYSTEMS ENGINEER</div>
-    <div class="image top">
-      <img src="assets/images/chip.svg" alt="">
-    </div>
-    <div class = "nameWarpper">
-      <div class="name">Bojan Gavrilovic</div>
-    </div>
+    
     <div class="navWrapper">
       <nav>
         <ul class="myNav">
-          <li><a href="#">About</a></li>
+          <li><a href="#about">About</a></li>
           <li>/</li>
-          <li><a href="#">Work</a></li>
+          <li><a href="#work">Work</a></li>
           <li>/</li>
           <li><a href="#">Contact</a></li>
           <li>/</li>
@@ -45,10 +40,14 @@
         </ul>
       </nav>
     </div>
+    <div class = "nameWrapper">
+      <div class="name">Bojan Gavrilovic</div>
+      <div class="title">EMBEDDED SYSTEMS ENGINEER | PRODUCT MANAGER</div>
+    </div>
+
   </div>
 
-
-  <section class="about">
+  <section class="about" id="about">
     <div class="leftAbout">
       <img src="assets/images/BOJAN_GAVRILOVIC_42.jpg" alt="">
     </div>
@@ -58,6 +57,93 @@
       <div class="aboutContent2 content">Welcome to my personal website where you can learn more about my current and past projects.</div>
     </div>
   </section>
+
+  <section class="section work contentSection" id="work">
+    <div class="leftWork">
+      <!-- <div class="sectionTitle">Projects</div> -->
+      <div class="subTitle"> Automotive Telematics</div>
+      <div class="companyName"> Autzu Inc.</div>
+      <div class="itemWrapper"> 
+        <ul class="items">
+          <div class="listTitle">Hardware:</div>
+          <li>GNSS, LTE, SMS, OBD, CAN, IMU, Magnetometer, STM32</li>
+          <div class="listTitle">Software:</div>
+          <li>C/C++, FreeRTOS, MQTT</li>
+        </ul>
+      </div>
+
+      <div class="subTitle">Wearble Device for Sleep Monitoring</div>
+      <div class="companyName"> Toronto Rehabilitation Institute</div>
+      <div class="itemWrapper"> 
+        <ul class="items">
+          <div class="listTitle">Hardware:</div>
+          <li>STM32, USB Charger, Lipo, SD card, USB Mass Storage, IMU, Microphone, ADC</li>
+          <div class="listTitle">Software:</div>
+          <li>C/C++</li>
+        </ul>
+      </div>
+
+      <div class="subTitle">Laparoscopic Simulator</div>
+      <div class="companyName">Sick Kids Hospital</div>
+      <div class="itemWrapper"> 
+        <ul class="items">
+          <div class="listTitle">Hardware:</div>
+          <li>Teensy MCU Board, IMU, Optical Mouse Sensor, 3D Mouse, Webcam</li>
+          <div class="listTitle">Software:</div>
+          <li>C/C++, Java</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="rightWork">
+      <img src="assets/images/car-min.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="section articles contentSection">
+    <div class="leftArticles">
+      
+    </div>
+    <div class="rightArticles">
+      
+    </div>
+  </section>
+
+  <footer class="section">
+    <div class="contentContainer">
+      <div class="footerBox1 footerBox">
+        <div class="line"></div>
+      </div>
+      <div class="footerBox2 footerBox">
+        <p id="footerText">I'm Toronto Based</p>
+        <p id="footerText">You can find me in the following places</p>
+      </div>
+      <div class="footerBox3">
+        <div class="contactInfo">
+          <span class="contactText">Bojan Gavrilovic</span>
+          <span class="contactText">905-512-0160</span>
+          <span class="contactText">gavrilovicbojan72@gmail.com</span>
+        </div>
+
+        <div class="socialMedia">
+          <a href="https://www.linkedin.com/in/bojangavrilovic/" class="icon linkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="icon insta">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=cJKu_uYAAAAJ&hl=en&oi=ao" class="icon scholar">
+            <img src="assets/images/scholar.svg">
+          </a>
+        <!-- <span class="contact social">Social Media</span> -->
+        </div>
+      </div>
+
+      <div class="footerBox4 footerBox">
+        <div class="line"></div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
