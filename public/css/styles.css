@@ -211,7 +211,7 @@ sup {
 
 a {
   /*color: #bd5d38;*/
-  color: #3997BD;
+  color: #325288;
   text-decoration: underline;
 }
 a:hover {
@@ -7341,7 +7341,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   /*color: #bd5d38 !important;*/
-  color: #3997BD !important;
+  color: #325288 !important;
 }
 
 .text-secondary {
@@ -7398,7 +7398,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   /*background-color: #bd5d38 !important;*/
-  background-color: #3997BD !important;
+  background-color: #325288 !important;
 }
 
 .bg-secondary {
@@ -10970,8 +10970,8 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -10980,7 +10980,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 75vh;
   }
 }
 @media (min-width: 992px) {
